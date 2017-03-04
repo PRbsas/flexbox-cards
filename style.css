@@ -39,10 +39,6 @@ img {
   -o-object-fit: cover;
   object-fit: cover;
 }
-.center {
-  margin: 0 auto;
-  padding: 0 1em;
-}
 .cards {
   display: block;
   width: 100%;
@@ -87,11 +83,19 @@ footer {
   }
   h4 {
     line-height: 1.2222;
+    margin-bottom: 1em;
   }
   p {
     font-size: 1em;
     line-height: 1.375;
   }
+}
+
+@media screen and (min-width: 52em) {
+    .center {
+      margin: 0 auto;
+      padding: 0 1em;
+    }
 }
 
 @media only screen and (min-width: 60em) {
